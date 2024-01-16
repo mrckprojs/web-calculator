@@ -1,0 +1,49 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 350px auto;
+  border: 5px solid rgb(46, 46, 46);
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 5px solid black;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  width:30%;
+  height: 50px;
+  margin: 5px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #f08080;
+}
+
+#equal {
+  background-color: #7e3030;
+  color: white;
+}
+
+input#result {
+  background-color: #7e3030;
+}
+
+.numeric {
+  background-color: #7e3030; /* Change this color to your preference */
+}
